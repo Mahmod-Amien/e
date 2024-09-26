@@ -3,7 +3,7 @@ var answer;
 do {
     answer = prompt("هل صليت على النبي؟");
 
-    if (answer === null) {
+    if (answer == null) {
         alert("لا يمكن الإلغاء. الرجاء الإجابة.");
     } else if (answer.toLowerCase() !== "نعم") {
         alert("يجب أن تكون الإجابة نعم.");
